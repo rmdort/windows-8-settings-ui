@@ -51,4 +51,4 @@ A simple windows 8 PC settings style packed in a jQuery plugin.
 	
 ## Demo
 
-[http://rmdort.github.com/windows-8-pc-settings/](http://rmdort.github.com/windows-8-pc-settings/)
+[http://rmdort.github.com/windows-8-settings-ui](http://rmdort.github.com/windows-8-settings-ui)
