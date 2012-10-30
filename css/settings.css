@@ -2,7 +2,6 @@
     font-family: 'SegoeUI';
     src: url('../fonts/Segoe_UI.eot');
     src: url('../fonts/Segoe_UI.eot?#iefix') format('embedded-opentype'),
-         
          url('../fonts/Segoe_UI.ttf') format('truetype'),
          url('../fonts/Segoe_UI.svg#webfontregular') format('svg');
     font-weight: normal;
@@ -28,7 +27,7 @@ body{
   opacity:0;
   transform: perspective(300px) rotateY(-10deg);
   -webkit-transform: perspective(300px) rotateY(-10deg);
-  -ms-transform: perspective(300px) rotateY(-10deg);  
+  -ms-transform: perspective(300px) rotateY(-10deg);
   height:100%;
   width:100%;
 }
@@ -42,7 +41,7 @@ body{
 
 .settingsWrapper.loaded{
   opacity:1;
-  
+
   transition: transform 0.7s ease-in;
   -webkit-transition: -webkit-transform 700ms linear;
   -ms-transition: -ms-transform 0.7s ease-in;
@@ -67,11 +66,20 @@ body{
 /* Settings Menu */
 
 .settingsMenu{ font-size:20px; list-style:none; margin:0 -30%; padding:0 30%;}
-.settingsMenu a{text-decoration:none; color:#4c4c4c; padding:10px 15%; margin:0 0; display:block; transition: margin 0.1s ease-in; -webkit-transition: margin 0.1s ease-in; -ms-transition: margin 0.1s ease-in;}
+.settingsMenu a{
+  text-decoration:none;
+  color:#4c4c4c;
+  padding:10px 15%;
+  margin:0;
+  display:block;
+  transition: margin 0.1s ease-in;
+  -webkit-transition: margin 0.1s ease-in;
+  -ms-transition: margin 0.1s ease-in;
+}
 .settingsMenu a:active{
   margin:0 5px;
 }
-.settingsMenu a:hover{
+.settingsMenu a:hover, .settingsMenu a:focus{
   background:#dedede;
 }
 .settingsMenu .active > a{
